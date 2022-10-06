@@ -16,21 +16,25 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: #d5d9e0;
+    background-color: #70798c ;
+    color: #f5f1ed;
 }
 a:link {
-    color: #4a6d88;
+    color: #dad2bc;
     text-decoration: none;
 }
 a:visited {
-    color: #4a6d88;
+    color: #a99985;
     text-decoration: none;
 }
 a:hover {
-    color: #cf0000;
+    color: red;
     text-decoration: none;
 }
 a:active {
-    color: #c6cdd7;
+    color: red;
     text-decoration: none;
+}
+h2 {
+    color: #252323;
 }
