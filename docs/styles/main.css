@@ -20,21 +20,24 @@ body {
     color: #f5f1ed;
 }
 a:link {
-    color: #dad2bc;
+    color: #252323;
     text-decoration: none;
 }
 a:visited {
-    color: #a99985;
+    color: #252323;
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: #f5f1ed;
     text-decoration: none;
 }
 a:active {
-    color: red;
+    color: #f5f1ed;
     text-decoration: none;
 }
 h2 {
     color: #252323;
+}
+h1 {
+    color: #a99985;
 }
