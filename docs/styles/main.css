@@ -1,10 +1,11 @@
 nav {
-    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
 }
 h1 {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 h1.title {
     font-size: 48px;
@@ -16,15 +17,15 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color: #70798c ;
-    color: #f5f1ed;
+    background-color: #e0e1dd ;
+    color: #778da9;
 }
 a:link {
-    color: #252323;
+    color: #415a77;
     text-decoration: none;
 }
 a:visited {
-    color: #252323;
+    color: #415a77;
     text-decoration: none;
 }
 a:hover {
@@ -36,8 +37,8 @@ a:active {
     text-decoration: none;
 }
 h2 {
-    color: #252323;
+    color: #1b263b;
 }
 h1 {
-    color: #a99985;
+    color: #415a77;
 }
