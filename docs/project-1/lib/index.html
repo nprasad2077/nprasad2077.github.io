@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+    </style> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Flash Card Match!</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Pokémon Memory Match!</h1>
+    </div>
+    <p class="scoreText"></p>
+    <p class="status"></p>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="blastoise">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/blast1.png" alt="Blastoise">
+        </div>
+        <div class="memory-card" data-framework="blastoise">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/blast1.png" alt="Blastoise">
+        </div>
+        <div class="memory-card" data-framework="lugia">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/lugia.png" alt="Lugia">
+        </div>
+        <div class="memory-card" data-framework="lugia">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/lugia.png" alt="Lugia">
+        </div>
+        <div class="memory-card" data-framework="suicine">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/suicine.png" alt="Suicine">
+        </div>
+        <div class="memory-card" data-framework="suicine">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/suicine.png" alt="Suicine">
+        </div>
+        <div class="memory-card" data-framework="mewtwo">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/mewtwo.png" alt="Mewtwo">
+        </div>
+        <div class="memory-card" data-framework="mewtwo">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/mewtwo.png" alt="Mewtwo">
+        </div>
+        <div class="memory-card" data-framework="charizard"> 
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/charizard.png" alt="Charizard">
+        </div>
+        <div class="memory-card" data-framework="charizard">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/charizard.png" alt="Charizard">
+        </div>
+        <div class="memory-card" data-framework="gengar">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/gengar.png" alt="Gengar">
+        </div>
+        <div class="memory-card" data-framework="gengar">
+            <img class="backFace" src="./img/Pokemon-Pokeball-PNG-Photo.png" alt="Poke-Ball">
+            <img class="frontFace" src="./img/gengar.png" alt="Gengar">
+        </div>
+        </div>
+    </section>
+    <button onClick="window.location.reload();" class="reset">Reset Game</button>
+    <button class="trigger">How To Play</button>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 id="how">How to Play:</h2>
+            <br>
+            <ul id="list">
+                <li>All cards have a Pokémon on one side. Each Pokémon appears twice.</li>
+                <li>The game starts with all of the cards face down.</li>
+                <li>The player flips over two cards.</li>
+                <li>If the two cards are identical, the player scores a point and the cards remain facing up.</li>
+                <li>If the cards do not match, they will be turned face-down again.</li>
+                <li>The game is complete once all pairs of cards have been matched and all cards are facing up.</li>
+                <li>Gotta Match 'Em All! Good Luck. ☺️</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
