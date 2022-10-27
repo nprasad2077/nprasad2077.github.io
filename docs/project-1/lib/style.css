@@ -6,6 +6,7 @@
 body {
     height: 100vh;
     background-color: rgb(25, 38, 83);
+    background: radial-gradient(rgb(65, 96, 209), rgb(25, 38, 83));
     display: flex;
     flex-direction: column;
     /* border: 2px solid white; */
@@ -28,16 +29,17 @@ img {
 }
 .memory-game {
     /* border: 2px solid lime; */
-    /* width: 720px;
-    height: 720px; */
-    width: 80%;
-    height: 100%;
+    width: 720px;
+    height: 720px;
+    /* width: 80%;
+    height: 100%; */
     display: flex;
     flex-wrap: wrap;
     margin: auto;
     /* margin: 10px auto 10px auto; */
     margin-bottom: 10px;
     perspective: 1000px;
+    justify-content: center;
 }
 .memory-card {
     width: calc(25% - 10px);
@@ -162,4 +164,7 @@ ul li {
 }
 #list {
     color: white;
+}
+html {
+    min-height: 100vh;
 }

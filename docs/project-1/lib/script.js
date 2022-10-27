@@ -22,18 +22,16 @@ function flipCard() {
     if (!hasFlipped) {                      //Allows for toggle between first card clicked and second card clicked. (has first card been clicked? true or false.)
         hasFlipped = true;
         firstCard = this;                   // First clicked card
-        console.log(hasFlipped, firstCard);
+        // console.log(hasFlipped, firstCard);
         return;
     }
     hasFlipped = false;
-    secondCard = this;
+    secondCard = this;                     //Second clicked card
     checkMatch();
 }
 
 function checkMatch () {            // Check for match
-    let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
-
-    isMatch ? disableCard() : unflipCard()      //If match, remove event listener so card cant be clicked again. If no match, then flip card back over.
+    firstCard.dataset.framework === secondCard.dataset.framework ? disableCard() : unflipCard()      //If match, remove event listener so card cant be clicked again. If no match, then flip card back over.
 }
 
 function disableCard () {
@@ -42,14 +40,14 @@ function disableCard () {
     score -= 1;
     scoreDisplay.innerText = `There are ${score} pair(s) remaining!`
     statusDisplay.innerHTML = '<p style="color: lime;">Correct!</p>'
-    console.log(score);
+    // console.log(score);
     if (score === 0){
         winnerCheck();
     }
 }
 
 function unflipCard () {
-    lockBoard = true;
+    lockBoard = true;                           //Lock the game board so that no other cards can be clicked while the cards are flipping back over. (lock cards during flip animation)
     statusDisplay.innerHTML = '<p style="color: rgb(254, 61, 0);">Incorrect. Try Again!</p>'
     setTimeout(() => {
         firstCard.classList.toggle('flip')      //Not a match
@@ -67,7 +65,7 @@ function resetBoard() {
 
 (function shuffle () {                                  // Shuffle Cards - Immediately Invoked function - executes when declared. 
     cards.forEach(card => {
-        let randomPos = Math.floor(Math.random()* 12)
+        let randomPos = Math.floor(Math.random()* 12)  //Equation used to return number values from 0-11.
         card.style.order = randomPos;
     })
 })();
