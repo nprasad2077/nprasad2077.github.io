@@ -48,7 +48,7 @@ function disableCard () {
 
 function unflipCard () {
     lockBoard = true;                           //Lock the game board so that no other cards can be clicked while the cards are flipping back over. (lock cards during flip animation)
-    statusDisplay.innerHTML = '<p style="color: rgb(254, 61, 0);">Incorrect. Try Again!</p>'
+    statusDisplay.innerHTML = '<p style="color: rgb(254, 63, 5);">Incorrect. Try Again!</p>'
     setTimeout(() => {
         firstCard.classList.toggle('flip')      //Not a match
         secondCard.classList.toggle('flip')     //Remove or Toggle can be used here.
