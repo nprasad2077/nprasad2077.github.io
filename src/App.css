@@ -1,0 +1,16 @@
+body {
+  background-color: bisque;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+}
+
+.welcome {
+  font-size: 22px;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+}
