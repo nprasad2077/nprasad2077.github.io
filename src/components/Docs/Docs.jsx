@@ -24,14 +24,15 @@ const Docs = () => {
       }
 
   return (
-    <div>
-    <>
+    <div class='flex flex-col grow-0'>
       <Document
         file='src\assets\docs\resume.pdf'
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false}/>
+        <Page pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false} width={1000} height={100}/>
       </Document>
+
+      
       <div class='text-center'>
         <p>
           Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
@@ -52,7 +53,7 @@ const Docs = () => {
           Next
         </button>
       </div>
-    </>
+    
   </div>
   )
 }

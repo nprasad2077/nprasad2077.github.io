@@ -5,9 +5,9 @@ import './resume.css'
 
 const Resume = () => {
   return (
-    <div class='flex'>
+    <div class='cont'>
 
-      <div className="max-w-sm">
+      <div className='child-1'>
         <Card
           horizontal={false}
           imgSrc="https://flowbite.com/docs/images/blog/image-4.jpg"
@@ -21,9 +21,9 @@ const Resume = () => {
         </Card>
       </div>
 
-      <div>
+      <div className='child-2'>
         <Card>
-        <Docs />
+          <Docs />
         </Card>
       </div>
 
