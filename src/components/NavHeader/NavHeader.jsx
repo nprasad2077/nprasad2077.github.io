@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import Switcher from '../Switcher/Switcher'
 
 const NavHeader = () => {
-    const [darkToggle, setDarkToggle] = useState(false)
 
   return (
     <div>

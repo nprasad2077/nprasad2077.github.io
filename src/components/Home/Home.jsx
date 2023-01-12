@@ -10,9 +10,6 @@ import Welcome from '../Welcome/Welcome'
 import Button from '../Button/Button'
 
 const Home = () => {
-  const [darkToggle, setDarkToggle] = useState (false)
-
-
   return (
     <div class=''>
       <div class=''>
