@@ -1,10 +1,12 @@
 import React from 'react'
 import Docs from '../Docs/Docs'
 import { Card } from 'flowbite-react'
+import './resume.css'
 
 const Resume = () => {
   return (
     <div class='flex'>
+
       <div className="max-w-sm">
         <Card
           horizontal={false}
@@ -18,6 +20,15 @@ const Resume = () => {
           </p>
         </Card>
       </div>
+
+      <div>
+        <Card>
+        <Docs />
+        </Card>
+      </div>
+
+
+
     </div>
   )
 }

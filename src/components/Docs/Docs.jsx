@@ -30,9 +30,9 @@ const Docs = () => {
         file='src\assets\docs\resume.pdf'
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page pageNumber={pageNumber} renderTextLayer={false} />
+        <Page pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false}/>
       </Document>
-      <div>
+      <div class='text-center'>
         <p>
           Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
         </p>
@@ -43,6 +43,7 @@ const Docs = () => {
         >
           Previous
         </button>
+        {' '}
         <button
           type="button"
           disabled={pageNumber >= numPages}
