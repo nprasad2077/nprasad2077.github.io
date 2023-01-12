@@ -21,6 +21,9 @@ const Home = () => {
       <div class=''>
         <Welcome />
       </div>
+      <div>
+        <About />
+      </div>
     </div>
   )
 }

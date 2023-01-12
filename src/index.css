@@ -55,4 +55,10 @@ input:checked + .slideBtnTg:before {
 
 .welcome {
   margin-top: 70px;
+  padding: 0.5rem;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
 }
