@@ -4,7 +4,7 @@ import './projects.css'
 
 const Projects = () => {
   return (
-    <div class='flex flex-row'>
+    <div class='flex flex-row flex-wrap'>
 
       <div className="child-1">
         <Card
@@ -56,7 +56,7 @@ const Projects = () => {
         </Card>
       </div>
 
-{/* <div className="max-w-sm">
+<div className="child-3">
   <Card
     horizontal={false}
     imgSrc="src\assets\shot\nutri.png"
@@ -72,7 +72,8 @@ const Projects = () => {
     </p>
   </Card>
 </div>
-<div className="max-w-sm">
+
+<div className="child-4">
   <Card
     horizontal={false}
     imgSrc="src\assets\shot\pokemon.png"
@@ -87,7 +88,7 @@ const Projects = () => {
       Pokemon Match! uses simple HTML/CSS/JavaScript to handle visuals and game logic.
     </p>
   </Card>
-</div> */}
+</div>
 
 
     </div>
