@@ -72,7 +72,7 @@ const Projects = () => {
       Pokemon Match! is a fun memory match game. Players are to find a matching pokemon until all cards are turned over.
     </p>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Pokemon Match! uses vanilla HTML/CSS/JavaScript to handle visuals and game logic.
+      Pokemon Match! uses simple HTML/CSS/JavaScript to handle visuals and game logic.
     </p>
   </Card>
 </div>
