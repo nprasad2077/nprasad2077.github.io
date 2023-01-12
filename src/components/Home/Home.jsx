@@ -14,8 +14,8 @@ const Home = () => {
 
 
   return (
-    <div>
-      <div>
+    <div class=''>
+      <div class=''>
         <NavHeader />
       </div>
       <div class=''>

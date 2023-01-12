@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 
 const App = () => {
   return (
-    <div>
+    <div class=''>
       <Home />
     </div>
   )

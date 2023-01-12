@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 
+// Components
+import Switcher from '../Switcher/Switcher'
+
 const NavHeader = () => {
     const [darkToggle, setDarkToggle] = useState(false)
 
   return (
     <div>
     <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div><Switcher /></div>
       <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="" class="flex items-center">
           <img src="src/assets/icons8-google-code-color/icons8-google-code-96.svg" class="h-6 mr-3 sm:h-9" alt="Logo"/>
