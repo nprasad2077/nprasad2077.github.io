@@ -1,0 +1,13 @@
+.cont{
+    flex-direction: row;
+}
+
+.child-1 {
+    flex-basis: 20%;
+    padding: 0.5rem
+}
+
+.child-2 {
+    flex-basis: 40%;
+    padding: 0.5rem;
+}
