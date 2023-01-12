@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <div
-      class={`h-screen w-full flex items-center justify-center bg-gray-300 flex-row ${
+      class={`flex items-center justify-center bg-gray-300 flex-row ${
         darkToggle && 'dark'
       }`}
     >
@@ -24,12 +24,14 @@ const Home = () => {
         <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />
         <span class="slideBtnTg round"></span>
       </label>
-      {/* <NavHeader /> */}
-      <div class='flex'>
+      <div class='flex-col'>
+        <NavHeader />
+        <div class='mt-20'>
         <Welcome />
         <About />
         <Projects />
         <Resume />
+        </div>
       </div>
     </div>
   )
