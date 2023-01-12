@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 
 // Components
-import Sidebar from '../Sidebar/Sidebar'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Resume from '../Resume/Resume'
@@ -15,23 +14,12 @@ const Home = () => {
 
 
   return (
-    <div
-      class={`flex items-center justify-center bg-gray-300 flex-row ${
-        darkToggle && 'dark'
-      }`}
-    >
-      <label class="toggleDarkBtn">
-        <input type="checkbox" onClick={() => setDarkToggle(!darkToggle)} />
-        <span class="slideBtnTg round"></span>
-      </label>
-      <div class='flex-col'>
+    <div>
+      <div>
         <NavHeader />
-        <div class='mt-20'>
+      </div>
+      <div class=''>
         <Welcome />
-        <About />
-        <Projects />
-        <Resume />
-        </div>
       </div>
     </div>
   )

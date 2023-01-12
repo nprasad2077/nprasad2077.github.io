@@ -52,3 +52,7 @@ input:checked + .slideBtnTg:before {
 .slideBtnTg.round:before {
   border-radius: 50%;
 }
+
+.welcome {
+  margin-top: 70px;
+}
