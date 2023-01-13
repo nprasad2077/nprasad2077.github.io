@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div class='flex flex-row flex-wrap'>
 
-      <div className="child-1">
+      <div className="child-1 mt-2">
         <Card
           horizontal={false}
           imgSrc="src/assets/bob/bob.png"
