@@ -9,8 +9,8 @@ const Resume = () => {
 
       <div className='child-1'>
         <Card
-          horizontal={false}
-          imgSrc="https://flowbite.com/docs/images/blog/image-4.jpg"
+          horizontal={true}
+          imgSrc="src/assets/pics/clippy.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Resume.

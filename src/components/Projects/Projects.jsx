@@ -8,7 +8,7 @@ const Projects = () => {
 
       <div className="child-1 mt-2">
         <Card
-          horizontal={false}
+          horizontal={true}
           imgSrc="src/assets/bob/bob.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
