@@ -39,7 +39,7 @@ const Projects = () => {
       </div></a>
 
 
-      <div className="child-2">
+      <a href='https://front-end-travel-app.vercel.app/' className='child-2'><div className="child-2">
         <Card
           horizontal={false}
           imgSrc="src\assets\shot\travel.png"
@@ -54,9 +54,9 @@ const Projects = () => {
           Travel Base is deployed on a React.js front-end that uses data from a Node.js/MongoDB/Mongoose back-end.
           </p>
         </Card>
-      </div>
+      </div></a>
 
-<div className="child-3">
+<a href='https://project-2-teal.vercel.app/' className='child-3'><div className="child-3">
   <Card
     horizontal={false}
     imgSrc="src\assets\shot\nutri.png"
@@ -71,9 +71,9 @@ const Projects = () => {
     Nutri-Scan is a React.js front-end application that calls to the blank.com server for data.
     </p>
   </Card>
-</div>
+</div></a>
 
-<div className="child-4">
+<a href='https://nprasad2077.github.io/project-1/lib/index.html' className='child-4'><div className="child-4">
   <Card
     horizontal={false}
     imgSrc="src\assets\shot\pokemon.png"
@@ -88,8 +88,7 @@ const Projects = () => {
       Pokemon Match! uses simple HTML/CSS/JavaScript to handle visuals and game logic.
     </p>
   </Card>
-</div>
-
+</div></a>
 
     </div>
   )
