@@ -16,7 +16,8 @@
 .child-3 {
     flex-basis: 40%;
     padding: 0.5rem;
-    margin-left: 20%;
+    margin-left: 14%;
+    width: 100%;
 }
 
 .child-4{

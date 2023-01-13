@@ -5,7 +5,7 @@ import './resume.css'
 
 const Resume = () => {
   return (
-    <div class='cont'>
+    <div class='cont text-white'>
 
       <div className='child-1'>
         <Card
