@@ -21,7 +21,7 @@ const Resume = () => {
         </Card>
       </div>
 
-      <div className='child-2'>
+      <div className='child-2' id='resume'>
         <Card>
           <Docs />
         </Card>

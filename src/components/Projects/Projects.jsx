@@ -4,7 +4,7 @@ import './projects.css'
 
 const Projects = () => {
   return (
-    <div class='flex flex-row flex-wrap'>
+    <div class='flex flex-row flex-wrap' id='project'>
 
       <div className="child-1 mt-2">
         <Card
@@ -39,7 +39,7 @@ const Projects = () => {
       </div></a>
 
 
-      <a href='https://front-end-travel-app.vercel.app/' className='child-2'><div className="child-2">
+      <a href='https://front-end-travel-app.vercel.app/' className='child-2'><div className="child-2" id='project-target'>
         <Card
           horizontal={false}
           imgSrc="src\assets\shot\travel.png"

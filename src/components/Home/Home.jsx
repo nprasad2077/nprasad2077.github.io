@@ -7,15 +7,14 @@ import Projects from '../Projects/Projects'
 import Resume from '../Resume/Resume'
 import NavHeader from '../NavHeader/NavHeader'
 import Welcome from '../Welcome/Welcome'
-import Button from '../Button/Button'
 
 const Home = () => {
   return (
-    <div class=''>
-      <div class=''>
+    <div>
+      <div>
         <NavHeader />
       </div>
-      <div class=''>
+      <div>
         <Welcome />
       </div>
       <div>
