@@ -21,7 +21,7 @@ const Projects = () => {
       </div>
 
 
-      <div className="child-2">
+      <a href='https://capstone-front-end-seven.vercel.app/' className='child-2'><div className="child-2">
           <Card
             horizontal={false}
             imgSrc="src\assets\shot\planetarium.png"
@@ -36,7 +36,7 @@ const Projects = () => {
             Planetarium is a React.js front-end application that pulls data from NASA APIs in addition to Django back-end for user and forum data.
             </p>
           </Card>
-      </div>
+      </div></a>
 
 
       <div className="child-2">
