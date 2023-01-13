@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 
 // Components
 import About from '../About/About'
@@ -7,6 +6,7 @@ import Projects from '../Projects/Projects'
 import Resume from '../Resume/Resume'
 import NavHeader from '../NavHeader/NavHeader'
 import Welcome from '../Welcome/Welcome'
+import Tail from '../Tail/Tail'
 
 const Home = () => {
   return (
@@ -25,6 +25,9 @@ const Home = () => {
       </div>
       <div>
         <Resume />
+      </div>
+      <div>
+        <Tail />
       </div>
     </div>
   )
