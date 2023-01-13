@@ -6,7 +6,7 @@ const Welcome = () => {
   return (
     <div className='welcome' id='welcome'>
       <Card>
-        <img src='src/assets/pics/mountains.jpg' class='picture'></img>
+        <img src='./assets/pics/mountains.jpg' class='picture'></img>
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Nikhil Prasad
         </h5>
