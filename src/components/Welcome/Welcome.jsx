@@ -1,11 +1,12 @@
 import React from 'react'
 import { Card } from 'flowbite-react'
+import './welcome.css'
 
 const Welcome = () => {
   return (
     <div className='welcome'>
       <Card>
-        <img src='src/assets/pics/mountains.jpg' class='w-5/6'></img>
+        <img src='src/assets/pics/mountains.jpg' class='picture'></img>
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Nikhil Prasad
         </h5>
