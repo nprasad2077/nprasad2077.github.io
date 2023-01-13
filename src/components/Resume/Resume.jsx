@@ -10,7 +10,7 @@ const Resume = () => {
       <div className='child-1'>
         <Card
           horizontal={true}
-          imgSrc="src/assets/pics/clippy.png"
+          imgSrc="/assets/pics/clippy.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Resume.

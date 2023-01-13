@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="child-1 mt-2">
         <Card
           horizontal={true}
-          imgSrc="src/assets/bob/bob.png"
+          imgSrc="/assets/bob/bob.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Projects
@@ -24,7 +24,7 @@ const Projects = () => {
       <a href='https://capstone-front-end-seven.vercel.app/' className='child-2'><div className="child-2">
           <Card
             horizontal={false}
-            imgSrc="src\assets\shot\planetarium.png"
+            imgSrc="assets\shot\planetarium.png"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Planetarium
@@ -42,7 +42,7 @@ const Projects = () => {
       <a href='https://front-end-travel-app.vercel.app/' className='child-2'><div className="child-2" id='project-target'>
         <Card
           horizontal={false}
-          imgSrc="src\assets\shot\travel.png"
+          imgSrc="\assets\shot\travel.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Travel Base
@@ -59,7 +59,7 @@ const Projects = () => {
 <a href='https://project-2-teal.vercel.app/' className='child-3'><div className="child-3">
   <Card
     horizontal={false}
-    imgSrc="src\assets\shot\nutri.png"
+    imgSrc="\assets\shot\nutri.png"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       Nutri-Scan
@@ -76,7 +76,7 @@ const Projects = () => {
 <a href='https://nprasad2077.github.io/project-1/lib/index.html' className='child-4'><div className="child-4">
   <Card
     horizontal={false}
-    imgSrc="src\assets\shot\pokemon.png"
+    imgSrc="\assets\shot\pokemon.png"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
       Pokemon Match!
