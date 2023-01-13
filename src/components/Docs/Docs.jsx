@@ -26,7 +26,7 @@ const Docs = () => {
   return (
     <div class='flex flex-col grow-0'>
       <Document
-        file='src\assets\docs\resume.pdf'
+        file='\assets\docs\resume.pdf'
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page pageNumber={pageNumber} renderTextLayer={false} renderAnnotationLayer={false} width={1000} height={100}/>
