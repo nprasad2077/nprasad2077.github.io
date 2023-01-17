@@ -6,7 +6,7 @@ const About = () => {
     <div className='flex' id='about'>
 
       <div class='p-2'>
-        <Card imgSrc="https://avatars.githubusercontent.com/u/114438461?s=400&u=f0289898edad1c24fae1effafc5e2ceae8fbd984&v=4">
+        <Card imgSrc="/assets/pics/profile.png">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             About Me.
           </h5>
