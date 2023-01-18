@@ -12,7 +12,7 @@ const Projects = () => {
           imgSrc="/assets/bob/bob.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Projects
+            Projects.
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
           Here are some of my projects.
@@ -33,7 +33,7 @@ const Projects = () => {
             Planetarium is an application used to display information about the planets in our Solar System.
             </p>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-            Planetarium is a React.js front-end application that pulls data from NASA APIs in addition to Django back-end for user and forum data.
+            React.js front-end application that displays NASA data and imagery to users. Users are able to interact with 3-D models, view Mars rover images, watch videos from the NASA image and video library, and view information about incoming asteroids. In addition, a Django back-end server handles user data, blog and forum posts, and image storage.
             </p>
           </Card>
       </div></a>
@@ -51,7 +51,7 @@ const Projects = () => {
           Travel Base is an application used to view and create memories about travel destinations.
           </p>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-          Travel Base is deployed on a React.js front-end that uses data from a Node.js/MongoDB/Mongoose back-end.
+          React.js front-end application that allows users to search, store, and update travel information about vacation destinations. This application has full CRUD functionality using RESTful architecture with an Express/Mongoose/Node.js back-end.
           </p>
         </Card>
       </div></a>
@@ -68,7 +68,7 @@ const Projects = () => {
     Nutri-Scan is an application for researching nutritional and environmental facts about food products. It can quickly display helpful nutritional summaries and interpret package information.
     </p>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-    Nutri-Scan is a React.js front-end application that calls to the blank.com server for data.
+    Web-based application developed for the European market that allows users to quickly search for health and nutrition information by food product. Users are shown a calculated nutrition score and warnings about allergens or ingredients. Data is derived from the Open Food Facts database and the application is built in React.js.
     </p>
   </Card>
 </div></a>
@@ -85,7 +85,7 @@ const Projects = () => {
       Pokemon Match! is a fun memory match game. Players are to find a matching pokemon until all cards are turned over.
     </p>
     <p className="font-normal text-gray-700 dark:text-gray-400">
-      Pokemon Match! uses simple HTML/CSS/JavaScript to handle visuals and game logic.
+    Memory match game using Pokémon themed cards. Game logic uses vanilla JavaScript, while visual effects are handled with custom CSS. The game is fully responsive and can be played on mobile devices.
     </p>
   </Card>
 </div></a>
