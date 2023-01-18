@@ -15,12 +15,14 @@ const Projects = () => {
             Projects.
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-          Here are some of my projects.
+          Here are some of my creations.
+          </p>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+          Click on the images to view the deployed applications.
           </p>
         </Card>
+
       </div>
-
-
       <a href='https://capstone-front-end-seven.vercel.app/' className='child-2'><div className="child-2">
           <Card
             horizontal={false}

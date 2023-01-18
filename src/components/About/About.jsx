@@ -1,11 +1,12 @@
 import React from 'react'
 import { Card } from 'flowbite-react'
+import './about.css'
 
 const About = () => {
   return (
     <div className='flex' id='about'>
 
-      <div class='p-2'>
+      <div className='profile'>
         <Card imgSrc="/assets/pics/profile.png">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             About Me.
