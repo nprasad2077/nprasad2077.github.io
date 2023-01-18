@@ -1,6 +1,5 @@
 import React from 'react'
 import { Footer } from 'flowbite-react'
-import { FooterIcon } from 'flowbite-react/lib/esm/components/Footer/FooterIcon'
 
 const Tail = () => {
   return (
