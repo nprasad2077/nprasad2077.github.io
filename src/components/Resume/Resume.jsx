@@ -16,7 +16,10 @@ const Resume = () => {
             Resume.
           </h5>
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            View my resume.
+            View my resume here.
+          </p>
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            Click to download a PDF version.
           </p>
         </Card>
       </div>
