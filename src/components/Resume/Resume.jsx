@@ -21,11 +21,11 @@ const Resume = () => {
         </Card>
       </div>
 
-      <div className='child-2' id='resume'>
+      <a href='https://drive.google.com/uc?export=download&id=1wdkN-gGhxK58JBCma8clQEp99fsniTp6' className='child-2'><div id='resume'>
         <Card>
           <Docs />
         </Card>
-      </div>
+      </div></a>
 
 
 

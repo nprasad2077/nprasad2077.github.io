@@ -26,7 +26,6 @@ const Tail = () => {
                 <span class="sr-only">Contact E-Mail</span>
             </a>
 
-
             </Footer.LinkGroup>
         </Footer>
   </div>
