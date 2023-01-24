@@ -7,7 +7,7 @@ const About = () => {
     <div className='flex' id='about'>
 
       <div className='profile'>
-        <Card imgSrc="/assets/pics/profile.png">
+        <Card imgSrc="/assets/pics/profile.png"  alt='nikhil-prasad-profile-picture'>
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             About Me.
           </h5>
@@ -24,19 +24,19 @@ const About = () => {
           </p>
           <div>
             <div class='flex flex-row justify-center items-center'>
-              <img src='/assets/icons/html-5-144.png'></img>
-              <img src='/assets/icons/css3-144.png'></img>
-              <img src='/assets/icons/javascript-144.png'></img>
+              <img src='/assets/icons/html-5-144.png' alt='html5'></img>
+              <img src='/assets/icons/css3-144.png' alt='css3'></img>
+              <img src='/assets/icons/javascript-144.png' alt='javascript'></img>
             </div>
             <div class='flex flex-row justify-center items-center'>
-              <img src='/assets/icons/react-144.png'></img>
-              <img src='/assets/icons/node-js-144.png'></img>
-              <img src='/assets/icons/typescript-144.png'></img>
+              <img src='/assets/icons/react-144.png' alt='react'></img>
+              <img src='/assets/icons/node-js-144.png' alt='node.js'></img>
+              <img src='/assets/icons/typescript-144.png' alt='typescript'></img>
             </div>
             <div class='flex flex-row justify-center items-center'>
-              <img src='/assets/icons/python-144.png'></img>
-              <img src='/assets/icons/django-144.png'></img>
-              <img src='/assets/icons/postgresql-144.png'></img>
+              <img src='/assets/icons/python-144.png' alt='python'></img>
+              <img src='/assets/icons/django-144.png' alt='django'></img>
+              <img src='/assets/icons/postgresql-144.png' alt='postgresSQL'></img>
             </div>
           </div>
         </Card>
