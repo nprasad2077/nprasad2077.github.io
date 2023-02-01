@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './navheader.css'
 
 // Components
 import Switcher from '../Switcher/Switcher'
