@@ -6,16 +6,16 @@ import Switcher from '../Switcher/Switcher'
 const NavHeader = () => {
 
   const handleWelcomeScroll = () => {
-    document.getElementById('welcome').scrollIntoView({block:'start' , behavior: 'smooth' })
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
   const handleAboutScroll = () => {
-    document.getElementById('about').scrollIntoView({block:'center' , behavior: 'smooth' })
+    window.scrollTo({top: 1078, left: 0, behavior: 'smooth'})
   }
   const handleProjectsScroll = () => {
-    document.getElementById('project-target').scrollIntoView({block: 'end', behavior: 'smooth' , inline: 'nearest'})
+    window.scrollTo({top: 1830, left: 0, behavior: 'smooth'})
   }
   const handleResumeScroll = () => {
-    document.getElementById('resume').scrollIntoView({block: 'nearest', behavior: 'smooth', inline: 'nearest' })
+    window.scrollTo({top: 3700, left: 0, behavior: 'smooth'})
   }
 
 
