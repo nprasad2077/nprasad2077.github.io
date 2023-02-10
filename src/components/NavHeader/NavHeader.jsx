@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import './navheader.css'
 
 // Components
 import Switcher from '../Switcher/Switcher'
@@ -6,17 +7,52 @@ import Switcher from '../Switcher/Switcher'
 const NavHeader = () => {
 
   const handleWelcomeScroll = () => {
-    document.getElementById('welcome').scrollIntoView({block:'start' , behavior: 'smooth' })
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
   const handleAboutScroll = () => {
-    document.getElementById('about').scrollIntoView({block:'center' , behavior: 'smooth' })
+    let about = document.getElementById('about')
+    let offset = about.offsetTop - 80
+    window.scrollTo({
+      top: offset,
+      left: 0,
+      behavior: 'smooth'
+    }) 
   }
   const handleProjectsScroll = () => {
-    document.getElementById('project-target').scrollIntoView({block: 'end', behavior: 'smooth' , inline: 'nearest'})
+    let bob = document.getElementById('project')
+    let offset = bob.offsetTop - 80
+    window.scrollTo({
+      top: offset,
+      left: 0,
+      behavior: 'smooth'
+    }) 
   }
   const handleResumeScroll = () => {
-    document.getElementById('resume').scrollIntoView({block: 'nearest', behavior: 'smooth', inline: 'nearest' })
+    let resume = document.getElementById('resume-scroll')
+    let offset = resume.offsetTop - 80
+    window.scrollTo({
+      top: offset,
+      left: 0,
+      behavior: 'smooth'
+    }) 
   }
+
+  useEffect(() => {
+    let rect = document.getElementById('about').getBoundingClientRect()
+    if (rect){
+      console.log(rect.top, rect.bottom);
+    }
+    let bob = document.getElementById('project').getBoundingClientRect()
+    if (bob){
+      console.log(bob.top,bob.bottom);
+    }
+    let resume = document.getElementById('resume-scroll').getBoundingClientRect()
+    if (resume){
+      console.log(resume.top, resume.bottom);
+    }
+  })
+
+  // console.log('about bottom - 600px');
 
 
   return (
