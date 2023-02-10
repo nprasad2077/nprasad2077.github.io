@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './navheader.css'
 
 // Components
@@ -10,14 +10,37 @@ const NavHeader = () => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
   const handleAboutScroll = () => {
-    window.scrollTo({top: 1078, left: 0, behavior: 'smooth'})
+    window.scrollTo({top: 500, left: 0, behavior: 'smooth'})
   }
   const handleProjectsScroll = () => {
-    window.scrollTo({top: 1830, left: 0, behavior: 'smooth'})
+    let bob = document.getElementById('project')
+    let offset = bob.offsetTop - 80
+    window.scrollTo({
+      top: offset,
+      left: 0,
+      behavior: 'smooth'
+    }) 
   }
   const handleResumeScroll = () => {
-    window.scrollTo({top: 3700, left: 0, behavior: 'smooth'})
+    window.scrollTo({top: 1600, left: 0, behavior: 'smooth'})
   }
+
+  useEffect(() => {
+    let rect = document.getElementById('about').getBoundingClientRect()
+    if (rect){
+      console.log(rect.top, rect.bottom);
+    }
+    let bob = document.getElementById('project').getBoundingClientRect()
+    if (bob){
+      console.log(bob.top,bob.bottom);
+    }
+    let resume = document.getElementById('resume-scroll').getBoundingClientRect()
+    if (resume){
+      console.log(resume.top, resume.bottom);
+    }
+  })
+
+  // console.log('about bottom - 600px');
 
 
   return (
