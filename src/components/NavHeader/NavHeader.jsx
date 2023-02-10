@@ -10,7 +10,13 @@ const NavHeader = () => {
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
   }
   const handleAboutScroll = () => {
-    window.scrollTo({top: 500, left: 0, behavior: 'smooth'})
+    let about = document.getElementById('about')
+    let offset = about.offsetTop - 80
+    window.scrollTo({
+      top: offset,
+      left: 0,
+      behavior: 'smooth'
+    }) 
   }
   const handleProjectsScroll = () => {
     let bob = document.getElementById('project')
@@ -22,7 +28,13 @@ const NavHeader = () => {
     }) 
   }
   const handleResumeScroll = () => {
-    window.scrollTo({top: 1600, left: 0, behavior: 'smooth'})
+    let resume = document.getElementById('resume-scroll')
+    let offset = resume.offsetTop - 80
+    window.scrollTo({
+      top: offset,
+      left: 0,
+      behavior: 'smooth'
+    }) 
   }
 
   useEffect(() => {
