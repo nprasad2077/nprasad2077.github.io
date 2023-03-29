@@ -40,8 +40,25 @@ const Projects = () => {
           </Card>
       </div></a>
 
+      <a href='https://github.com/nprasad2077/ecommerce' className='child-2'><div className="child-2">
+          <Card
+            horizontal={false}
+            imgSrc="assets\shot\proshop.png"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              ProShop
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            ProShop is a completely customized E-Commerce/Shopping Cart application built from scratch using Django & React.
+            </p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            ProShop comes bundled with a full featured shopping cart, product reviews and ratings, top products carousel, product search, product pagination, user profile with orders, admin product management, admin user management, mark orders as delivered, checkout process{'(shipping, payment method, etc...)'}, and PayPal/credit card integration.
+            </p>
+          </Card>
+      </div></a>
 
-      <a href='https://front-end-travel-app.vercel.app/' className='child-2'><div className="child-2" id='project-target'>
+
+      <a href='https://front-end-travel-app.vercel.app/' className='child-3'><div className="child-3" id='project-target'>
         <Card
           horizontal={false}
           imgSrc="\assets\shot\travel.png"
