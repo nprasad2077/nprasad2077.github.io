@@ -37,24 +37,6 @@ const NavHeader = () => {
     }) 
   }
 
-  useEffect(() => {
-    let rect = document.getElementById('about').getBoundingClientRect()
-    if (rect){
-      console.log(rect.top, rect.bottom);
-    }
-    let bob = document.getElementById('project').getBoundingClientRect()
-    if (bob){
-      console.log(bob.top,bob.bottom);
-    }
-    let resume = document.getElementById('resume-scroll').getBoundingClientRect()
-    if (resume){
-      console.log(resume.top, resume.bottom);
-    }
-  })
-
-  // console.log('about bottom - 600px');
-
-
   return (
     <div>
     <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
