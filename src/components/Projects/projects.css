@@ -25,3 +25,11 @@
     margin-left: auto;
     padding: 0.5rem;
 }
+
+.child-5{
+    flex-basis: 35%;
+    padding: 0.5rem;
+    margin-left: 10%;
+    width: 100%;
+
+}
