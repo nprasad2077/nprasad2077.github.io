@@ -40,7 +40,24 @@ const Projects = () => {
           </Card>
       </div></a>
 
-      <a href='https://github.com/nprasad2077/ecommerce' className='child-2'><div className="child-2">
+      <a href='https://nprasad2077.github.io/storeAngular/home/' className='child-2'><div className="child-2">
+          <Card
+            horizontal={false}
+            imgSrc="assets\shot\store.png"
+          >
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              WebStore
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+             Webstore is an E-commerce front-end site that uses the Fake Store API.
+            </p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+            E-Commerce or webshop store built using Angular/TypeScript, Express.js, and Stripe.
+            </p>
+          </Card>
+      </div></a>
+
+      <a href='https://github.com/nprasad2077/ecommerce' className='child-3'><div className="child-3">
           <Card
             horizontal={false}
             imgSrc="assets\shot\proshop.png"
@@ -58,7 +75,7 @@ const Projects = () => {
       </div></a>
 
 
-      <a href='https://front-end-travel-app.vercel.app/' className='child-3'><div className="child-3" id='project-target'>
+      <a href='https://front-end-travel-app.vercel.app/' className='child-2'><div className="child-3" id='project-target'>
         <Card
           horizontal={false}
           imgSrc="\assets\shot\travel.png"
