@@ -86,9 +86,9 @@ const Projects = () => {
         </div>
       </a>
 
-      <a href="https://capstone-front-end-seven.vercel.app/" className="iphone">
+      <a href="https://apple-iphone-gui.netlify.app/" className="iphone">
         <div className="iphone">
-          <Card horizontal={false} imgSrc="assets\shot\planetarium.png">
+          <Card horizontal={false} imgSrc="assets\shot\iphone.png">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               iPhone 3D Animation
             </h5>
@@ -117,7 +117,7 @@ const Projects = () => {
               about travel destinations.
             </p>
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              React.js front-end application that allows users to search, store,
+              React front-end application that allows users to search, store,
               and update travel information about vacation destinations. This
               application has full CRUD functionality using RESTful architecture
               with an Express/Mongoose/Node.js back-end.
