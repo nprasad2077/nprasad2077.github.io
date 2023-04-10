@@ -1,16 +1,16 @@
-import React from 'react'
-import { useState, useEffect } from 'react'
+import React from "react";
+import { useState, useEffect } from "react";
 
 export default function useDarkSide() {
-    const [theme, setTheme] = useState('dark');
-    const colorTheme = theme === "dark" ? "light" : "dark";
+  const [theme, setTheme] = useState("dark");
+  const colorTheme = theme === "dark" ? "light" : "dark";
 
-    useEffect(() => {
-        const root = window.document.documentElement;
-        root.classList.remove(colorTheme);
-        root.classList.add(theme);
-        localStorage.setItem('theme', theme);
-    }, [theme, colorTheme]);
+  useEffect(() => {
+    const root = window.document.documentElement;
+    root.classList.remove(colorTheme);
+    root.classList.add(theme);
+    localStorage.setItem("theme", theme);
+  }, [theme, colorTheme]);
 
-    return [colorTheme, setTheme]
+  return [colorTheme, setTheme];
 }

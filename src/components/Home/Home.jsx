@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
 // Components
-import About from '../About/About'
-import Projects from '../Projects/Projects'
-import Resume from '../Resume/Resume'
-import NavHeader from '../NavHeader/NavHeader'
-import Welcome from '../Welcome/Welcome'
-import Tail from '../Tail/Tail'
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Resume from "../Resume/Resume";
+import NavHeader from "../NavHeader/NavHeader";
+import Welcome from "../Welcome/Welcome";
+import Tail from "../Tail/Tail";
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
         <Tail />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
