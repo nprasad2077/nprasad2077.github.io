@@ -18,7 +18,7 @@ const Projects = () => {
           </p>
         </Card>
       </div>
-      
+
       <a href="https://proshop-nikhil.herokuapp.com/" className="child-2">
         <div className="child-2">
           <Card horizontal={false} imgSrc="assets\shot\proshop.png">
