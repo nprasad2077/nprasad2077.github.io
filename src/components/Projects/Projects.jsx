@@ -18,6 +18,29 @@ const Projects = () => {
           </p>
         </Card>
       </div>
+      
+      <a href="https://proshop-nikhil.herokuapp.com/" className="child-2">
+        <div className="child-2">
+          <Card horizontal={false} imgSrc="assets\shot\proshop.png">
+            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              ProShop
+            </h5>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              ProShop is a completely customized E-Commerce/Shopping Cart
+              application built from scratch using Django & React.
+            </p>
+            <p className="font-normal text-gray-700 dark:text-gray-400">
+              ProShop comes bundled with a full featured shopping cart, product
+              reviews and ratings, top products carousel, product search,
+              product pagination, user profile with orders, admin product
+              management, admin user management, mark orders as delivered,
+              checkout process{"(shipping, payment method, etc...)"}, and
+              PayPal/credit card integration.
+            </p>
+          </Card>
+        </div>
+      </a>
+
       <a
         href="https://capstone-front-end-seven.vercel.app/"
         className="child-2"
@@ -45,9 +68,9 @@ const Projects = () => {
 
       <a
         href="https://nprasad2077.github.io/storeAngular/home/"
-        className="child-2"
+        className="child-3"
       >
-        <div className="child-2">
+        <div className="child-3">
           <Card horizontal={false} imgSrc="assets\shot\store.png">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               WebStore
@@ -59,28 +82,6 @@ const Projects = () => {
             <p className="font-normal text-gray-700 dark:text-gray-400">
               E-Commerce or webshop store built using Angular/TypeScript,
               Express.js, and Stripe.
-            </p>
-          </Card>
-        </div>
-      </a>
-
-      <a href="https://github.com/nprasad2077/ecommerce" className="child-3">
-        <div className="child-3">
-          <Card horizontal={false} imgSrc="assets\shot\proshop.png">
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              ProShop
-            </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              ProShop is a completely customized E-Commerce/Shopping Cart
-              application built from scratch using Django & React.
-            </p>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              ProShop comes bundled with a full featured shopping cart, product
-              reviews and ratings, top products carousel, product search,
-              product pagination, user profile with orders, admin product
-              management, admin user management, mark orders as delivered,
-              checkout process{"(shipping, payment method, etc...)"}, and
-              PayPal/credit card integration.
             </p>
           </Card>
         </div>
