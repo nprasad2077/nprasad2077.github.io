@@ -72,6 +72,7 @@
 .projects-container {
   display: flex;
   flex-wrap: wrap;
+  /* gap: 2rem; */
 }
 
 .card-container {
@@ -79,4 +80,24 @@
   box-sizing: border-box;
   padding: 0.5rem;
 }
+
+.title-card {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+.projects-title {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 
