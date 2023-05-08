@@ -22,9 +22,9 @@ const Resume = () => {
 
       <a
         href="https://drive.google.com/uc?export=download&id=1wdkN-gGhxK58JBCma8clQEp99fsniTp6"
-        className="child-2"
+        className="child-2 w-full"
       >
-        <div id="resume">
+        <div id="resume" class="w-full h-full">
           <Card>
             <Docs />
           </Card>
