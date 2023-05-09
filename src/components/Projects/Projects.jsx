@@ -12,7 +12,7 @@ const Projects = () => {
       {/* Title bar */}
       <div className="projects-title">
         <Card
-          // imgSrc="/assets/bob/bob.png"
+        // imgSrc="/assets/bob/bob.png"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             My Projects.
@@ -126,7 +126,7 @@ const Projects = () => {
 
       <div className="card-container">
         <Card
-          onClick={() => navigateTo("https://front-end-travel-app.vercel.app/")}
+          onClick={() => navigateTo("https://apple-iphone-gui.netlify.app/")}
           horizontal={false}
           imgSrc="assets/shot/iphone.png"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
@@ -149,7 +149,7 @@ const Projects = () => {
 
       <div className="card-container">
         <Card
-          onClick={() => navigateTo("https://project-2-teal.vercel.app/")}
+          onClick={() => navigateTo("https://front-end-travel-app.vercel.app/")}
           horizontal={false}
           imgSrc="assets/shot/travel.png"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
@@ -172,7 +172,7 @@ const Projects = () => {
 
       <div className="card-container">
         <Card
-          onClick={() => navigateTo("https://nba-stats-beryl.vercel.app/")}
+          onClick={() => navigateTo("https://project-2-teal.vercel.app/")}
           horizontal={false}
           imgSrc="assets/shot/nutri.png"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
