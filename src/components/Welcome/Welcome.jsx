@@ -5,7 +5,7 @@ import "./welcome.css";
 const Welcome = () => {
   return (
     <div className="welcome" id="welcome">
-      <Card>
+      <Card className="mt-6">
         <img src="/assets/pics/intro.gif" class="picture"></img>
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Nikhil Prasad
