@@ -11,7 +11,7 @@ import Tail from "../Tail/Tail";
 const Home = () => {
   return (
     <div>
-      <div>
+      <div className="mb-4">
         <NavHeader />
       </div>
       <div>
@@ -20,7 +20,7 @@ const Home = () => {
       <div>
         <About />
       </div>
-      <div>
+      <div className="mb-4">
         <Projects />
       </div>
       <div>
