@@ -6,18 +6,9 @@ on:
       - '**.jpeg'
       - '**.png'
       - '**.webp'
-  push: # Add this line
-    branches: 
-      - main # Or the name of the branch with the images
-    paths:
-      - '**.jpg'
-      - '**.jpeg'
-      - '**.png'
-      - '**.webp'
-  workflow_dispatch:
 jobs:
-  build: 
-    if: github.event_name == 'workflow_dispatch' || github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
+  build:
+    if: github.event.pull_request.head.repo.full_name == github.repository
     name: calibreapp/image-actions
     runs-on: ubuntu-latest
     steps:
