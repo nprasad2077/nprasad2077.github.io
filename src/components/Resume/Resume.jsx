@@ -1,16 +1,16 @@
-import React from 'react'
-import Docs from '../Docs/Docs'
-import { Card } from 'flowbite-react'
-import './resume.css'
+import React from "react";
+import Docs from "../Docs/Docs";
+import { Card } from "flowbite-react";
+import "./resume.css";
 
 const Resume = () => {
   return (
-    <div class='cont text-white'>
-
-      <div className='child-1'>
+    <div class="cont text-white">
+      <div className="child-1">
         <Card
           horizontal={true}
-          imgSrc="/assets/pics/clippy.png"
+          imgSrc="/assets/pics/clippy-alpha.webp"
+          imgAlt="clippy from microsoft!"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Resume.
@@ -21,16 +21,13 @@ const Resume = () => {
         </Card>
       </div>
 
-      <div className='child-2' id='resume'>
+      <div className="child-2" id="resume">
         <Card>
           <Docs />
         </Card>
       </div>
-
-
-
     </div>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

@@ -1,12 +1,12 @@
-import React from 'react'
-import { Card } from 'flowbite-react'
-import './welcome.css'
+import React from "react";
+import { Card } from "flowbite-react";
+import "./welcome.css";
 
 const Welcome = () => {
   return (
-    <div className='welcome' id='welcome'>
+    <div className="welcome" id="welcome">
       <Card>
-        <img src='/assets/pics/mountains.jpg' class='picture'></img>
+        <img src="\assets\pics\mountains_alpha.webp" alt="Mountains" />
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Nikhil Prasad
         </h5>
@@ -15,7 +15,7 @@ const Welcome = () => {
         </p>
       </Card>
     </div>
-  )
-}
+  );
+};
 
-export default Welcome
+export default Welcome;
