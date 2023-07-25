@@ -7,9 +7,9 @@ const About = () => {
     <div className="flex" id="about">
       <div className="profile">
         <Card
-          imgSrc="/assets/pics/profile.webp"
-          alt="nikhil-prasad-profile-picture"
         >
+          <img src="/assets/pics/profile.webp"
+          alt="nikhil-prasad-profile-picture" width='600px' height='100%'></img>
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             About Me.
           </h5>
