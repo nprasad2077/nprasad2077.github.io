@@ -24,7 +24,7 @@ const Projects = () => {
         <Card
           onClick={() => navigateTo("https://nba-stats-beryl.vercel.app/")}
           horizontal={false}
-          imgSrc="assets/shot/nbaStats.png"
+          imgSrc="assets/shot/nbaStats.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -54,7 +54,7 @@ const Projects = () => {
         <Card
           onClick={() => navigateTo("https://proshop-nikhil.herokuapp.com/")}
           horizontal={false}
-          imgSrc="assets/shot/proshop.png"
+          imgSrc="assets/shot/proshop.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -81,7 +81,7 @@ const Projects = () => {
             navigateTo("https://capstone-front-end-seven.vercel.app/")
           }
           horizontal={false}
-          imgSrc="assets/shot/planetarium.png"
+          imgSrc="assets/shot/planetarium.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -107,7 +107,7 @@ const Projects = () => {
             navigateTo("https://nprasad2077.github.io/storeAngular/home/")
           }
           horizontal={false}
-          imgSrc="assets/shot/store.png"
+          imgSrc="assets/shot/store.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -128,7 +128,7 @@ const Projects = () => {
         <Card
           onClick={() => navigateTo("https://apple-iphone-gui.netlify.app/")}
           horizontal={false}
-          imgSrc="assets/shot/iphone.png"
+          imgSrc="assets/shot/iphone.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -151,7 +151,7 @@ const Projects = () => {
         <Card
           onClick={() => navigateTo("https://front-end-travel-app.vercel.app/")}
           horizontal={false}
-          imgSrc="assets/shot/travel.png"
+          imgSrc="assets/shot/travel.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -174,7 +174,7 @@ const Projects = () => {
         <Card
           onClick={() => navigateTo("https://project-2-teal.vercel.app/")}
           horizontal={false}
-          imgSrc="assets/shot/nutri.png"
+          imgSrc="assets/shot/nutri.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -201,7 +201,7 @@ const Projects = () => {
             navigateTo("https://nprasad2077.github.io/project-1/lib/index.html")
           }
           horizontal={false}
-          imgSrc="assets/shot/pokemon.png"
+          imgSrc="assets/shot/pokemon.webp"
           className="rounded overflow-hidden shadow-lg cursor-pointer"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
