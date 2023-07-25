@@ -25,7 +25,7 @@ const Projects = () => {
           onClick={() => navigateTo("https://nba-stats-beryl.vercel.app/")}
           horizontal={false}
           imgSrc="assets/shot/nbaStats.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             NBA Stats Explorer
@@ -55,7 +55,7 @@ const Projects = () => {
           onClick={() => navigateTo("https://proshop-nikhil.herokuapp.com/")}
           horizontal={false}
           imgSrc="assets/shot/proshop.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             ProShop
@@ -82,7 +82,7 @@ const Projects = () => {
           }
           horizontal={false}
           imgSrc="assets/shot/planetarium.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Planetarium
@@ -108,7 +108,7 @@ const Projects = () => {
           }
           horizontal={false}
           imgSrc="assets/shot/store.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             WebStore
@@ -129,7 +129,7 @@ const Projects = () => {
           onClick={() => navigateTo("https://apple-iphone-gui.netlify.app/")}
           horizontal={false}
           imgSrc="assets/shot/iphone.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             iPhone 3-D Animation
@@ -152,7 +152,7 @@ const Projects = () => {
           onClick={() => navigateTo("https://front-end-travel-app.vercel.app/")}
           horizontal={false}
           imgSrc="assets/shot/travel.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Travel Base
@@ -175,7 +175,7 @@ const Projects = () => {
           onClick={() => navigateTo("https://project-2-teal.vercel.app/")}
           horizontal={false}
           imgSrc="assets/shot/nutri.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Nutri-Scan
@@ -202,7 +202,7 @@ const Projects = () => {
           }
           horizontal={false}
           imgSrc="assets/shot/pokemon.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Pokémon Match!
