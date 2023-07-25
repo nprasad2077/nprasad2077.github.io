@@ -25,7 +25,7 @@ const Projects = () => {
           onClick={() => navigateTo("https://nba-stats-beryl.vercel.app/")}
           horizontal={false}
           imgSrc="assets/shot/nbaStats.webp"
-          className="rounded overflow-hidden shadow-lg cursor-pointer"
+          className="rounded overflow-hidden shadow-lg cursor-pointer project-card"
         >
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             NBA Stats Explorer
