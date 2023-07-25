@@ -6,7 +6,7 @@ const Welcome = () => {
   return (
     <div className="welcome" id="welcome">
       <Card className="mt-6">
-        <img src="/assets/pics/intro.gif" class="picture"></img>
+        <img src="/assets/pics/intro.webp" class="picture" alt="introduction gif"></img>
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Nikhil Prasad
         </h5>
