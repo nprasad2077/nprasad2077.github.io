@@ -78,7 +78,7 @@ const Projects = () => {
       <div className="card-container">
         <Card
           onClick={() =>
-            navigateTo("https://capstone-front-end-seven.vercel.app/")
+            navigateTo("https://nasa-capstone.vercel.app/")
           }
           horizontal={false}
           imgSrc="assets/shot/planetarium.webp"
